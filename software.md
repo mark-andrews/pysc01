@@ -19,7 +19,7 @@ Other ways of installing and using Python are possible, and I will mention them 
 
 In terms of setup, there are around five main steps. These steps are the same on Windows, MacOS, Linux.
 
-1. Install Python 3.9
+1. Install Python 3.8
 2. Pip install `virtualenv`
 3. Create a virtual environment.
 4. Install whatever packages are needed with pip, which can be done at any time from then onwards.
@@ -30,12 +30,9 @@ Personally, I use Linux, but I won't describe the steps for Linux unless someone
 
 ## Windows
 
-### Step 1: Install Python 3.9
+### Step 1: Install Python 3.8
 
-Go to https://www.python.org/downloads/ and download the Python 3.9 installer.
-Strictly speaking, we don't need 3.9.
-Python 3.8 would be just as sufficient. 
-However, we might as well get the most recent version.
+Go to https://www.python.org/downloads/ and download the Python 3.8 installer.
 
 Download the `.exe` installer, and then you install that as normal, i.e. double click the installer.
 On the opening dialog box, it might give you the option to 'Add Python 3.8 to PATH'. I said yes to this.
@@ -58,7 +55,7 @@ And check the version with `python --version`. You should see something like thi
 
 ```
 C:\Users\psy3andrem>python --version
-Python 3.9.0
+Python 3.8.6
 ```
 
 ### Step 2: Install virtualenv
@@ -111,7 +108,7 @@ Doing that should open your browser with a Jupyter notebook session. What this i
 
 ## MacOs
 
-### Step 1: Install Python 3.9
+### Step 1: Install Python 3.8
 
 Go here https://www.python.org/downloads and get the installer.
 
@@ -180,7 +177,7 @@ Doing that should open your browser with a Jupyter notebook session. What this i
 We can pip install new packages easily now. 
 
 ```
-pip install seaborn plotnine sklearn numba statsmodels rpy2 sympy bs4 lxml nltk sh
+pip install seaborn plotnine numba statsmodels rpy2 sympy joblib
 ```
 
 Note that for `rpy2`, you need to install R (no need for RStudio, just R itself). This can be done as follows:
